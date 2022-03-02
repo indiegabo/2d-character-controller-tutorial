@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.ricardogodoy.hierarchyseparator": {
+      "version": "git@github.com:RicardoQLG/HierarchySeparator.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "f632c6d09b1d6e26f3b3118cb9f12c9c745692a3"
+    },
     "com.unity.2d.animation": {
       "version": "5.1.0",
       "depth": 0,
@@ -71,6 +78,13 @@
       "depth": 0,
       "source": "builtin",
       "dependencies": {}
+    },
+    "com.unity.cinemachine": {
+      "version": "2.6.11",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
     },
     "com.unity.collab-proxy": {
       "version": "1.15.12",
