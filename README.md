@@ -1,2 +1,2 @@
-# state-machine
-The state machine tutorial project
+# 2D Character Controller Tutorial
+
