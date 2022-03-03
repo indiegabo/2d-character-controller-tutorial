@@ -215,7 +215,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 25259617}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c674fd41840db546bd5ac2fe6855a5b, type: 3}
+  m_Script: {fileID: 11500000, guid: bb5174553b95d8e49ab5a4650c49e364, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _camera: {fileID: 519420031}
@@ -232,7 +232,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 265993161}
-  - component: {fileID: 265993163}
+  - component: {fileID: 265993164}
   - component: {fileID: 265993162}
   m_Layer: 6
   m_Name: Layer 3
@@ -306,7 +306,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &265993163
+--- !u!114 &265993164
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -315,7 +315,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 265993160}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c674fd41840db546bd5ac2fe6855a5b, type: 3}
+  m_Script: {fileID: 11500000, guid: bb5174553b95d8e49ab5a4650c49e364, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _camera: {fileID: 519420031}
@@ -335,6 +335,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -411,7 +412,7 @@ Camera:
   far clip plane: 300
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 5.64
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -435,12 +436,32 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -36.441525, y: 1.0798872, z: -10}
+  m_LocalPosition: {x: -35.301037, y: 0.4042685, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a160d838ff8b4b4693ac20007e008c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AssetsPPU: 16
+  m_RefResolutionX: 320
+  m_RefResolutionY: 180
+  m_UpscaleRT: 1
+  m_PixelSnapping: 0
+  m_CropFrameX: 0
+  m_CropFrameY: 0
+  m_StretchFill: 0
 --- !u!1 &540837355
 GameObject:
   m_ObjectHideFlags: 0
@@ -577,7 +598,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 546541551}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.040313, y: -3.7905552, z: 5.2893567}
+  m_LocalPosition: {x: 9.040313, y: -3.7905552, z: 30}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 818710278}
@@ -780,7 +801,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1001088527}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 20.42125, y: -2.5489986, z: 5.2893567}
+  m_LocalPosition: {x: 20.42125, y: -2.5489986, z: 30}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 818710278}
@@ -920,7 +941,7 @@ MonoBehaviour:
   m_Follow: {fileID: 2084066086}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 5
+    OrthographicSize: 5.64
     NearClipPlane: 0.3
     FarClipPlane: 300
     Dutch: 0
@@ -941,7 +962,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1370617553}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -38.49, y: 4.82, z: -10}
+  m_LocalPosition: {x: -37.2, y: -3.01, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 663610348}
@@ -974,7 +995,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1419463968}
-  - component: {fileID: 1419463970}
+  - component: {fileID: 1419463971}
   - component: {fileID: 1419463969}
   m_Layer: 6
   m_Name: Layer 2
@@ -1048,7 +1069,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1419463970
+--- !u!114 &1419463971
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1057,7 +1078,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1419463967}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c674fd41840db546bd5ac2fe6855a5b, type: 3}
+  m_Script: {fileID: 11500000, guid: bb5174553b95d8e49ab5a4650c49e364, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _camera: {fileID: 519420031}
@@ -1125,7 +1146,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1507003051}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.81, y: -6.118, z: 5.2893567}
+  m_LocalPosition: {x: 5.81, y: -6.074, z: 5.2893567}
   m_LocalScale: {x: 188.0214, y: -0.8902, z: 1}
   m_Children: []
   m_Father: {fileID: 818710278}
@@ -1268,7 +1289,7 @@ GameObject:
   - component: {fileID: 2084066087}
   - component: {fileID: 2084066088}
   m_Layer: 3
-  m_Name: Adventurer
+  m_Name: Steve
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1314,7 +1335,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 391f85a1091e99f4cabad8a027264672, type: 3}
+  m_Sprite: {fileID: 3985284202397769235, guid: dbf8eaf7097546f4f961afbd55d7c501, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1333,7 +1354,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2084066084}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -38.49, y: 4.82, z: 0}
+  m_LocalPosition: {x: -37.2, y: -3.01, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1352,8 +1373,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.041033857, y: -0.40737176}
-  m_Size: {x: 0.5532628, y: 1.3989692}
+  m_Offset: {x: -0.11182499, y: -0.7707312}
+  m_Size: {x: 0.73529625, y: 1.9638801}
   m_Direction: 0
 --- !u!50 &2084066088
 Rigidbody2D:
