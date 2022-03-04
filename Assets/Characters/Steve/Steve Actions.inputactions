@@ -1,0 +1,90 @@
+{
+    "name": "Steve Actions",
+    "maps": [
+        {
+            "name": "Land",
+            "id": "86d80bdb-6726-4f50-bcd2-1085dc63ae37",
+            "actions": [
+                {
+                    "name": "Sword Attack",
+                    "type": "Button",
+                    "id": "fb3fc007-16c5-423f-89c7-6477276adcff",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9d168dfc-70d3-4eef-ae19-6b2e7a112192",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Sword Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "UnderWater",
+            "id": "78edd0a9-cdf0-4dfe-abe2-a3da7c57f364",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "d1133ecd-fbab-4332-a7ed-fbe3e8f415c9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "73b9d901-0428-40e1-be68-0b6a0cae9004",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "RidingDragon",
+            "id": "1c5dc0d8-6f7a-487a-81e3-2ba290c051f6",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "5713b316-bfde-4dc0-b375-e96446a25cfb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b88ed65f-0f49-4cea-9fb2-4fb23fd32844",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
