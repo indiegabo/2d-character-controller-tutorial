@@ -1,18 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class CharacterInput : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void OnSwordAttack(InputAction.CallbackContext action)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (action.started)
+        {
+            Debug.Log($"Ação iniciada");
+        }
+        if (action.performed)
+        {
+            Debug.Log($"Ação realizada");
+        }
+        if (action.canceled)
+        {
+            Debug.Log($"Ação finalizada");
+        }
     }
 }

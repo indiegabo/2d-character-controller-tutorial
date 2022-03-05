@@ -11,7 +11,7 @@
                     "id": "fb3fc007-16c5-423f-89c7-6477276adcff",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": "",
+                    "interactions": "Tap",
                     "initialStateCheck": false
                 }
             ],
@@ -19,7 +19,18 @@
                 {
                     "name": "",
                     "id": "9d168dfc-70d3-4eef-ae19-6b2e7a112192",
-                    "path": "",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Sword Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "99b81c0b-55f6-4ba1-b1e6-1cc6eedb3e13",
+                    "path": "<Gamepad>/buttonWest",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

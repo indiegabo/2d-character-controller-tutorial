@@ -1285,10 +1285,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2084066086}
-  - component: {fileID: 2084066090}
   - component: {fileID: 2084066085}
   - component: {fileID: 2084066087}
   - component: {fileID: 2084066088}
+  - component: {fileID: 2084066090}
   - component: {fileID: 2084066089}
   m_Layer: 3
   m_Name: Steve
@@ -1412,7 +1412,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Actions: {fileID: -944628639613478452, guid: 8cfa6bedd6e3a7e46ab702a601e5b34b, type: 3}
-  m_NotificationBehavior: 0
+  m_NotificationBehavior: 2
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
     m_PersistentCalls:
@@ -1423,7 +1423,31 @@ MonoBehaviour:
   m_ControlsChangedEvent:
     m_PersistentCalls:
       m_Calls: []
-  m_ActionEvents: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2084066090}
+        m_TargetAssemblyTypeName: CharacterInput, Assembly-CSharp
+        m_MethodName: OnSwordAttack
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: fb3fc007-16c5-423f-89c7-6477276adcff
+    m_ActionName: Land/Sword Attack
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: d1133ecd-fbab-4332-a7ed-fbe3e8f415c9
+    m_ActionName: UnderWater/New action
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 5713b316-bfde-4dc0-b375-e96446a25cfb
+    m_ActionName: RidingDragon/New action
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Land
