@@ -5,19 +5,67 @@ using UnityEngine.InputSystem;
 
 public class CharacterInput : MonoBehaviour
 {
+    public static string Land = "Land";
+    public static string UnderWater = "UnderWater";
+    public static string RidingDragon = "RidingDragon";
+
+    // Components
+    private PlayerInput _playerInput;
+
+    // Data
+    private Vector2 _movement = Vector2.zero;
+
+    // Getters
+    public Vector2 movement => this._movement;
+
+    private void Awake()
+    {
+        _playerInput = GetComponent<PlayerInput>();
+    }
+
+    public void SwitchActionMap(string actionMapName)
+    {
+        _playerInput.SwitchCurrentActionMap(actionMapName);
+    }
+
     public void OnSwordAttack(InputAction.CallbackContext action)
     {
-        if (action.started)
-        {
-            Debug.Log($"Ação iniciada");
-        }
         if (action.performed)
         {
-            Debug.Log($"Ação realizada");
-        }
-        if (action.canceled)
-        {
-            Debug.Log($"Ação finalizada");
+            Debug.Log($"Steve deu uma espadada");
         }
     }
+
+    public void OnHeavySwordAttack(InputAction.CallbackContext action)
+    {
+        if (action.performed)
+        {
+            Debug.Log($"Steve deu uma espadada mais forte!");
+        }
+    }
+
+    public void OnSwim(InputAction.CallbackContext action)
+    {
+        if (action.performed)
+        {
+            Debug.Log($"Steve bateu as pernas para nadar!");
+        }
+    }
+
+    public void OnSpitFireBall(InputAction.CallbackContext action)
+    {
+        if (action.performed)
+        {
+            Debug.Log($"O dragão acaba de cuspir uma bola de fogo");
+        }
+    }
+
+    public void OnMovement(InputAction.CallbackContext action)
+    {
+        Vector2 rawMovement = action.ReadValue<Vector2>();
+
+        _movement.x = Mathf.Abs(rawMovement.x) > 0 ? Mathf.Sign(rawMovement.x) : 0;
+        _movement.y = Mathf.Abs(rawMovement.y) > 0 ? Mathf.Sign(rawMovement.y) : 0;
+    }
+
 }
