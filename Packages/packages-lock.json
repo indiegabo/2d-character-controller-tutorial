@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.indiegabo.glogger": {
+      "version": "git@github.com:indiegabo/GLogger.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "9b41125aee4e23ecb49410028a846d89d39fbda6"
+    },
     "com.ricardogodoy.hierarchyseparator": {
       "version": "git@github.com:RicardoQLG/HierarchySeparator.git",
       "depth": 0,
@@ -87,7 +94,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.collab-proxy": {
-      "version": "1.15.12",
+      "version": "1.15.13",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -121,7 +128,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.vscode": {
-      "version": "1.2.4",
+      "version": "1.2.5",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
@@ -153,7 +160,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
-      "version": "1.1.29",
+      "version": "1.1.31",
       "depth": 0,
       "source": "registry",
       "dependencies": {

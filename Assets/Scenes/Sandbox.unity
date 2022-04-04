@@ -436,7 +436,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.399998, y: 0.40587494, z: -10}
+  m_LocalPosition: {x: -11.4, y: 0.40587446, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -725,6 +725,88 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &874090464
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 874090465}
+  - component: {fileID: 874090466}
+  m_Layer: 3
+  m_Name: Body
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &874090465
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874090464}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2084066086}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &874090466
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874090464}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 3282741762930966416, guid: 23e359172dad52f49afc68fefc9e70d6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 3.5, y: 3.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1001088527
 GameObject:
   m_ObjectHideFlags: 0
@@ -836,10 +918,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82b4db11c34c2d246aaa4ed7170ea2f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_OutlineColor: {r: 1, g: 1, b: 1, a: 1}
-  m_BarColor: {r: 0.012103926, g: 0.086915076, b: 0.3773585, a: 1}
+  m_OutlineColor: {r: 0.5330188, g: 0.62842375, b: 1, a: 1}
+  m_BarColor: {r: 0.14498042, g: 0.1500534, b: 0.16981131, a: 1}
   m_TextColor: {r: 1, g: 1, b: 1, a: 1}
-  m_OutlineSize: 0
+  m_OutlineSize: 1
 --- !u!4 &1026376629
 Transform:
   m_ObjectHideFlags: 0
@@ -865,7 +947,7 @@ GameObject:
   - component: {fileID: 1187821168}
   - component: {fileID: 1187821167}
   m_Layer: 0
-  m_Name: PLayer Stuff
+  m_Name: Player Related
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -883,10 +965,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82b4db11c34c2d246aaa4ed7170ea2f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_OutlineColor: {r: 1, g: 1, b: 1, a: 1}
-  m_BarColor: {r: 0.26415092, g: 0.018440714, b: 0.018440714, a: 1}
+  m_OutlineColor: {r: 1, g: 0.5235849, b: 0.9895701, a: 1}
+  m_BarColor: {r: 0.14509805, g: 0.14901961, b: 0.16862746, a: 1}
   m_TextColor: {r: 1, g: 1, b: 1, a: 1}
-  m_OutlineSize: 0
+  m_OutlineSize: 1
 --- !u!4 &1187821168
 Transform:
   m_ObjectHideFlags: 0
@@ -1258,10 +1340,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82b4db11c34c2d246aaa4ed7170ea2f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_OutlineColor: {r: 1, g: 1, b: 1, a: 1}
-  m_BarColor: {r: 0.2924528, g: 0.009380543, b: 0.2661564, a: 1}
+  m_OutlineColor: {r: 0.9811321, g: 0.43965825, b: 0.43965825, a: 1}
+  m_BarColor: {r: 0.14509805, g: 0.14901961, b: 0.16862746, a: 1}
   m_TextColor: {r: 1, g: 1, b: 1, a: 1}
-  m_OutlineSize: 0
+  m_OutlineSize: 1
 --- !u!4 &1851338025
 Transform:
   m_ObjectHideFlags: 0
@@ -1285,12 +1367,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2084066086}
-  - component: {fileID: 2084066085}
   - component: {fileID: 2084066087}
   - component: {fileID: 2084066088}
   - component: {fileID: 2084066091}
   - component: {fileID: 2084066090}
   - component: {fileID: 2084066089}
+  - component: {fileID: 2084066085}
   m_Layer: 3
   m_Name: Steve
   m_TagString: Untagged
@@ -1298,57 +1380,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!212 &2084066085
-SpriteRenderer:
+--- !u!95 &2084066085
+Animator:
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2084066084}
   m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 3985284202397769235, guid: dbf8eaf7097546f4f961afbd55d7c501, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.5, y: 0.37}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ace334b0a64a382429310842af8ff087, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &2084066086
 Transform:
   m_ObjectHideFlags: 0
@@ -1359,7 +1409,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -11.4, y: 0.22, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 874090465}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1477,38 +1528,6 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2084066090}
         m_TargetAssemblyTypeName: CharacterInput, Assembly-CSharp
-        m_MethodName: UnderWaterActionMap
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 510c7036-465c-4b39-822d-41cb240a7767
-    m_ActionName: Land/Switch to Under Water[/Keyboard/rightArrow]
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2084066090}
-        m_TargetAssemblyTypeName: CharacterInput, Assembly-CSharp
-        m_MethodName: RidingDragonActionMap
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 8c688fe9-e33f-44f6-b4b7-97500b6fcc81
-    m_ActionName: Land/Switch to Riding Dragon[/Keyboard/leftArrow]
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2084066090}
-        m_TargetAssemblyTypeName: CharacterInput, Assembly-CSharp
         m_MethodName: OnSwim
         m_Mode: 0
         m_Arguments:
@@ -1521,38 +1540,6 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 1c28da16-31d5-47c0-bd82-3c8c8cabee2f
     m_ActionName: UnderWater/Swim[/Keyboard/r,/DualShock4GamepadHID/buttonEast]
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2084066090}
-        m_TargetAssemblyTypeName: CharacterInput, Assembly-CSharp
-        m_MethodName: LandActionMap
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 0d98e60d-9971-4ce0-a2f1-67580b0c4a03
-    m_ActionName: UnderWater/Switch to Land[/Keyboard/upArrow]
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2084066090}
-        m_TargetAssemblyTypeName: CharacterInput, Assembly-CSharp
-        m_MethodName: LandActionMap
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 11945e3c-76f8-40b5-97a5-6890bd659b94
-    m_ActionName: RidingDragon/Switch to Land[/Keyboard/upArrow]
   - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2084066090}
