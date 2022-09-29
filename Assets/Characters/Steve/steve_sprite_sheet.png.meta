@@ -147,7 +147,7 @@ TextureImporter:
       213: 2696881540477142227
     second: steve_sprite_sheet_47
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -168,6 +168,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -176,7 +177,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -206,6 +207,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -245,6 +247,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1276,6 +1302,55 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      steve_sprite_sheet_35: -4872487903709670262
+      steve_sprite_sheet_9: 7147759240745725793
+      steve_sprite_sheet_0_idle: 3282741762930966416
+      steve_sprite_sheet_24: 1068080302672260604
+      steve_sprite_sheet_13: 4735560872066712420
+      steve_sprite_sheet_32: 3528135323775646987
+      steve_sprite_sheet_4: 5977824255973026710
+      steve_sprite_sheet_15: 949936106209223529
+      steve_sprite_sheet_47: 2696881540477142227
+      steve_sprite_sheet_29: 5941997312125188478
+      steve_sprite_sheet_45: 3282427620740147843
+      steve_sprite_sheet_30: 7029303561298641049
+      steve_sprite_sheet_43: -8428620318660791255
+      steve_sprite_sheet_10: 1372699004272951432
+      steve_sprite_sheet_33: 9100585848185691459
+      steve_sprite_sheet_44: -2009915372358085951
+      steve_sprite_sheet_1: -4408691081035849228
+      steve_sprite_sheet_7: 6687493388220146399
+      steve_sprite_sheet_6_attack: -9066227513071337134
+      steve_sprite_sheet_25: -1755711413209550721
+      steve_sprite_sheet_46: -6994806211346841860
+      steve_sprite_sheet_11: 5619739266645696164
+      steve_sprite_sheet_26: 8109142970412701899
+      steve_sprite_sheet_2: -2850250472132882175
+      steve_sprite_sheet_34: -3956087598997369204
+      steve_sprite_sheet_22: -1549171033494477199
+      steve_sprite_sheet_5: -4692630543519852861
+      steve_sprite_sheet_28_down: 3580090744521903265
+      steve_sprite_sheet_41: -6864753516848019704
+      steve_sprite_sheet_8: 7711599560038322774
+      steve_sprite_sheet_27: -1589743249630902128
+      steve_sprite_sheet_36_death: 6826469212062618449
+      steve_sprite_sheet_18: 1576892788972215958
+      steve_sprite_sheet_20_up: -5047276557457351050
+      steve_sprite_sheet_12_run: -4028916079455572745
+      steve_sprite_sheet_16: -4737142960362339850
+      steve_sprite_sheet_19: 7040678407214199682
+      steve_sprite_sheet_14: 1833014531706598169
+      steve_sprite_sheet_38: 3305271864467536605
+      steve_sprite_sheet_37: 6234125791214905867
+      steve_sprite_sheet_31: 239790618928126763
+      steve_sprite_sheet_17: -1890027951448120483
+      steve_sprite_sheet_42: 3203185281591306227
+      steve_sprite_sheet_21: -4071107214259836414
+      steve_sprite_sheet_40: 7574361895295294514
+      steve_sprite_sheet_3: 1752083318780084037
+      steve_sprite_sheet_39: -6941532882654138099
+      steve_sprite_sheet_23: 489237248053742146
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

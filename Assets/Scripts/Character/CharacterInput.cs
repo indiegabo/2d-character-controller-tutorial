@@ -5,12 +5,15 @@ using UnityEngine.InputSystem;
 
 public class CharacterInput : MonoBehaviour
 {
+    PlayerInput _playerInput;
+
+    [SerializeField] private InputActionAsset characterInputActions;
+    [SerializeField] private InputActionAsset uiInputActions;
     public static string Land = "Land";
     public static string UnderWater = "UnderWater";
     public static string RidingDragon = "RidingDragon";
 
     // Components
-    private PlayerInput _playerInput;
 
     // Data
     private Vector2 _movement = Vector2.zero;
